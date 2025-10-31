@@ -19,7 +19,7 @@ def send_email():
         # Resend ile mail gönderimi
         params = {
             "from": "Acme <onboarding@resend.dev>",
-            "to": "pelinsy66@gmail.com",
+            "to": "sjoxlyses7@gmail.com",
             "subject": f"Blog Contact: {email_data.subject}",
             "text": f"Gönderen: {email_data.to}\n\nMesaj:\n{email_data.body}"
         }
